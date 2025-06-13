@@ -1,59 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:vizinhanca_hero_app/screens/home_screen.dart';
+import 'package:vizinhanca_hero_app/screens/login_screen.dart';
+import 'package:vizinhanca_hero_app/screens/register_screen.dart';
 
+// Função que inicializa o aplicativo
 void main() {
-  runApp(const VizinhançaHeroApp());
+  runApp(const VizinhancaHeroApp());
 }
 
-class VizinhançaHeroApp extends StatelessWidget {
-  const VizinhançaHeroApp({super.key});
+// Classe principal do aplicativo 
+// que estende StatelessWidget - Que siginifica que os dados desta tela não mudam com o tempo.
+class VizinhancaHeroApp extends StatelessWidget {
+  const VizinhancaHeroApp({super.key});
 
-  @override
+  @override // Método que constrói a interface do aplicativo
   Widget build(BuildContext context) {
+    // MaterialApp é o widget raiz para aplicativos que usam o Material Design
     return MaterialApp(
-      title: 'Vizinhança Hero App',
+      title: 'Vizinhança Hero App', // Título do aplicativo.
       theme: ThemeData(
-        primarySwatch: Colors.blue, // Cor principal do app
+        primarySwatch: Colors.blue, // Define a cor principal para os elementos do Material Design.
+        visualDensity: VisualDensity.adaptiveIPlatformDensity, // Ajusta o layout para diferentes plataformas. 
+        fontFamily: 'Poppins', // Define a fonte padrão do aplicativo.
       ),
-      home: const HomeScreen(), // Sua primeira tela
-    );
-  }
-}
-
-// --- Sua Primeira Tela (HomeScreen) ---
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Vizinhança Hero'),
-        centerTitle: true, // Centraliza o título
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            Text(
-              'Bem-vindo ao Vizinhança Hero!',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-              textAlign: TextAlign.center,
-            ),
-            SizedBox(height: 20), // Espaço entre os textos
-            Text(
-              'Sua conexão com freelancers da vizinhança.',
-              style: TextStyle(fontSize: 16),
-              textAlign: TextAlign.center,
-            ),
-            SizedBox(height: 40),
-            // Aqui você pode adicionar botões para "Sou Contratante" ou "Sou Freelancer"
-            ElevatedButton(
-              onPressed: null, // Desabilita o botão por enquanto
-              child: Text('Login/Cadastro'),
-            ),
-          ],
-        ),
-      ),
+      initialRoute: '/', // Define a rota inicial 
+      routes: {
+        '/': (context) => const HomeScreen(), // Rota para a tela inicial 
+        '/login': (context) => const LoginScreen(), // Rota para a tela de login
+        '/register': (context) => const RegisterScreen(), // Rota para a tela de cadastro.
+      },
     );
   }
 }

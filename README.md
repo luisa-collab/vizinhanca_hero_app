@@ -1,7 +1,7 @@
 🏘️ Vizinhança Hero App
 
 Onde a Vizinhança se Conecta para Ajudar e Gerar Renda.
-__________________________
+----------------------------------------------------------------------------
 
 👀 Visão Geral do Projeto
 O _vizinhança Hero App_ nasce de uma visão ambiciosa: conectar pessoas que precisam de pequenas ajudas no dia a dia com vizinhos dispostos a realizar essas tarefas, gerando conveniência para uns e renda para outros. Mais do que um aplicativo de serviços, é uma ferramenta de impacto social que busca oferecer oportunidades de trabalho flexíveis e dignas, especialmente para a população de baixa renda e jovens.
@@ -10,6 +10,8 @@ Imagine o seu Carlinhos, um vizinho idoso, que precisa de alguem para ir a padar
 
 Nossa missão é diminuir barreiras de acesso e contribuir para o combate á fome, oferecendo uma fonte de renda rápida e acessível.
 
+___________________________________________________________________________________________________
+
 
 🚩 Problema que Resolvemos
 
@@ -17,143 +19,157 @@ Nossa missão é diminuir barreiras de acesso e contribuir para o combate á fom
 
 * Para o Freelancer: A carência de oportunidades de renda flexíveis e imediatas, especialmente para jovens e pessoas de baixa renda que buscam complementar sua renda ou ter seu primeiro contato com o mercado de trabalho formal, de forma segura e digna.
 
+_______________________________________________________________________________________
 
-✨ A Solução: Como o Vizinhanca Hero Funciona
+
+✨ A Solução: Como o Vizinhanca Hero Funciona??
+
 O aplicativo funciona como uma ponte entre a necessidade e a oportunidade, focando na confiança e na proximidade da comunidade:
 
-Para o Contratante (Ex: Seu Carlinhos):
+* Para o Contratante (Ex: Seu Carlinhos):
 
-Publica uma pequena tarefa (ex: "comprar pão e leite na padaria X").
+* Publica uma pequena tarefa (ex: "comprar pão e leite na padaria X").
 
-Define o local de entrega.
+* Define o local de entrega.
 
-Escolhe a forma de pagamento (inicialmente, dinheiro na entrega).
+* Escolhe a forma de pagamento (inicialmente, dinheiro na entrega).
 
-Visualiza freelancers disponíveis na vizinhança.
+* Visualiza freelancers disponíveis na vizinhança.
 
-Interage com o freelancer via chat.
+* Interage com o freelancer via chat.
 
-Avalia o freelancer após a conclusão da tarefa.
+* Avalia o freelancer após a conclusão da tarefa.
 
-Para o Freelancer (O Vizinhanca Hero):
+* Para o Freelancer (O Vizinhanca Hero):
 
-Cria um perfil e ativa sua disponibilidade.
+* Cria um perfil e ativa sua disponibilidade.
 
-Visualiza tarefas próximas publicadas por vizinhos.
+* Visualiza tarefas próximas publicadas por vizinhos.
 
-Aceita as tarefas que se encaixam em sua disponibilidade.
+* Aceita as tarefas que se encaixam em sua disponibilidade.
 
-Comunica-se com o contratante via chat.
+* Comunica-se com o contratante via chat.
 
-Recebe o pagamento (valor do produto + R$ 2,00 pela tarefa) diretamente do contratante na entrega.
+* Recebe o pagamento (valor do produto + R$ 2,00 pela tarefa) diretamente do contratante na entrega.
 
-Acumula avaliações para construir sua reputação.
+* Acumula avaliações para construir sua reputação.
+
+_____________________________________________________________________________________
+
 
 🛠️ Tecnologias Utilizadas
 Frontend (Aplicativo Mobile):
 
-Flutter: Framework UI para construção de aplicativos nativos de alta performance para Android e iOS a partir de uma única base de código.
+_Flutter:_ Framework UI para construção de aplicativos nativos de alta performance para Android e iOS a partir de uma única base de código.
 
-Dart: Linguagem de programação otimizada para Flutter.
+_Dart:_ Linguagem de programação otimizada para Flutter.
 
-Backend (Futuro):
+_Backend_ (Futuro):
 
-Node.js (com Express.js) / Python (com Flask/Django): Para a lógica de negócio, gerenciamento de usuários, tarefas, notificações e pagamentos.
+_Node.js_ (com Express.js) / Python (com Flask/Django): Para a lógica de negócio, gerenciamento de usuários, tarefas, notificações e pagamentos.
 
-Firebase (Firestore/Auth): Poderá ser utilizado para autenticação de usuários e banco de dados em tempo real, facilitando o desenvolvimento inicial.
+_Firebase (Firestore/Auth):_ Poderá ser utilizado para autenticação de usuários e banco de dados em tempo real, facilitando o desenvolvimento inicial.
 
 Controle de Versão:
 
-Git: Sistema de controle de versão distribuído.
+_Git:_ Sistema de controle de versão distribuído.
 
-GitHub: Plataforma de hospedagem de código-fonte para colaboração.
+_GitHub:_ Plataforma de hospedagem de código-fonte para colaboração.
+
+__________________________________________________________________________________________
 
 🚀 Funcionalidades da Versão 1.0 (MVP)
 Nosso Produto Mínimo Viável (MVP) focará nas funcionalidades essenciais para testar a ideia e gerar valor para a comunidade:
 
 Autenticação de Usuários:
 
-Cadastro simplificado (email/senha, nome, foto, endereço).
+* Cadastro simplificado (email/senha, nome, foto, endereço).
 
-Login para Contratantes e Freelancers.
+* Login para Contratantes e Freelancers.
 
-Gestão de Perfil:
+* Gestão de Perfil:
 
-Visualização e edição básica de perfil (nome, foto, status).
+* Visualização e edição básica de perfil (nome, foto, status).
 
-Criação de Tarefas (Contratante):
+* Criação de Tarefas (Contratante):
 
-Formulário para descrever a tarefa e o endereço de entrega.
+* Formulário para descrever a tarefa e o endereço de entrega.
 
-Valor fixo de R$ 2,00 para a mão de obra.
+* Valor fixo de R$ 2,00 para a mão de obra.
 
-Indicação do valor estimado do produto a ser comprado.
+* Indicação do valor estimado do produto a ser comprado.
 
-Pagamento: Apenas Dinheiro na Entrega.
+* Pagamento: Apenas Dinheiro na Entrega.
 
-Visualização e Aceite de Tarefas (Freelancer):
+* Visualização e Aceite de Tarefas (Freelancer):
 
-Listagem de tarefas disponíveis próximas.
+* Listagem de tarefas disponíveis próximas.
 
-Detalhes da tarefa e opção de aceitar/recusar.
+* Detalhes da tarefa e opção de aceitar/recusar.
 
-Ativação/desativação de status de disponibilidade.
+* Ativação/desativação de status de disponibilidade.
 
 Comunicação:
 
-Chat básico entre Contratante e Freelancer (após o aceite da tarefa).
+* Chat básico entre Contratante e Freelancer (após o aceite da tarefa).
 
 Avaliação:
 
-Contratante pode avaliar o Freelancer (estrelas e comentários básicos) após a conclusão da tarefa.
+* Contratante pode avaliar o Freelancer (estrelas e comentários básicos) após a conclusão da tarefa.
+______________________________________________________________________________________________________
 
 🤝 Como Contribuir
 Se você é um desenvolvedor, designer ou tem habilidades que possam agregar, sua ajuda é muito bem-vinda!
 
-Fork este repositório para a sua conta no GitHub.
+* Fork este repositório para a sua conta no GitHub.
 
-Clone seu fork para o seu computador: git clone https://github.com/luisa-collab/vizinhanca_hero_app.git
+* Clone seu fork para o seu computador: git clone https://github.com/luisa-collab/vizinhanca_hero_app.git
 
-Crie uma nova branch para suas mudanças: git checkout -b minha-nova-funcionalidade
+* Crie uma nova branch para suas mudanças: git checkout -b minha-nova-funcionalidade
 
-Faça suas mudanças e teste.
+* Faça suas mudanças e teste.
 
-Commit suas mudanças com uma mensagem clara e descritiva.
+* Commit suas mudanças com uma mensagem clara e descritiva.
 
-Envie suas mudanças para o seu fork: git push origin minha-nova-funcionalidade
+* Envie suas mudanças para o seu fork: git push origin minha-nova-funcionalidade
 
-Abra um Pull Request (PR) da sua branch para a branch main deste repositório.
+* Abra um Pull Request (PR) da sua branch para a branch main deste repositório.
 
-Verifique a seção Issues no GitHub para encontrar tarefas que precisam ser feitas ou para sugerir novas funcionalidades.
+* Verifique a seção Issues no GitHub para encontrar tarefas que precisam ser feitas ou para sugerir novas funcionalidades.
 
-Para mais detalhes sobre as diretrizes de contribuição, consulte nosso CONTRIBUTING.md.
+* Para mais detalhes sobre as diretrizes de contribuição, consulte nosso CONTRIBUTING.md.
 
+___________________________________________________________________________________________________________
 ⚖️ Código de Conduta
 Para garantir um ambiente acolhedor e respeitoso para todos os colaboradores, pedimos que todos sigam nosso CODE_OF_CONDUCT.md.
 
+_____________________________________________________________________________________________________
 🗺️ Roadmap (Próximos Passos e Futuro)
 Este é apenas o começo! Nossas próximas versões visam expandir e aprimorar a experiência:
 
-V2 - Segurança e Pagamento Avançado:
+* V2 - Segurança e Pagamento Avançado:
 
-Integração com Cartão Virtual da Plataforma (ou carteira digital) para pagamentos seguros (produto + serviço) dentro do app.
+* Integração com Cartão Virtual da Plataforma (ou carteira digital) para pagamentos seguros (produto + serviço) dentro do app.
 
-Sistema de saque para Freelancers (a partir de R$ 5,00) via PIX, com pequena porcentagem para a plataforma.
+* Sistema de saque para Freelancers (a partir de R$ 5,00) via PIX, com pequena porcentagem para a plataforma.
 
-Melhorias na validação de usuários e prevenção de fraudes.
+* Melhorias na validação de usuários e prevenção de fraudes.
 
-V3 - Otimização e Expansão:
+* V3 - Otimização e Expansão:
 
-Mapa interativo para visualização de tarefas e freelancers.
+* Mapa interativo para visualização de tarefas e freelancers.
 
-Sistema de notificações push para novas tarefas e atualizações.
+* Sistema de notificações push para novas tarefas e atualizações.
 
-Categorias de tarefas e filtros de busca.
+* Categorias de tarefas e filtros de busca.
 
-Recursos de acessibilidade aprimorados.
+* Recursos de acessibilidade aprimorados.
 
-Expansão para outras cidades/regiões.
+* Expansão para outras cidades/regiões.
 
+* Novas categorias como Mercado/ Compras
+
+____________________________________________________________________________________________
 👤 Time / Contato
 Este projeto é uma iniciativa de [Luisa Laura].
 Para dúvidas, sugestões ou interesse em parcerias, entre em contato via email (luisa.laura.envio@gmail.com).
